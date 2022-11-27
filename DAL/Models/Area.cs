@@ -9,6 +9,7 @@ namespace DAL.Models
     {
         public Area()
         {
+
             SubAreas = new HashSet<SubArea>();
             Transportations = new HashSet<Transportation>();
             TravelSites = new HashSet<TravelSite>();
